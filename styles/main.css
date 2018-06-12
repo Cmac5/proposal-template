@@ -1,0 +1,110 @@
+/* Universal selector */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #5a5a5a;
+  font-family: 'Lato', sans-serif;
+}
+
+/* this broke up the sections to make the start of styling easier no longer need once styled */
+section {
+  border:1px solid #cccccc;
+  padding: 5%;
+}
+
+/* these a parts were to make the website links look better and add when the browser hoovers it makes a change */
+a {
+  color: #e2344a;
+  text-decoration: none;
+  border-bottom: 1px solid;
+  padding-bottom: 2px;
+}
+
+a:hover {
+  color: #787878;
+}
+
+p {
+  margin-bottom: .8rem;
+  line-height: 1.4;
+  font-weight: 300;
+}
+
+ul {
+  list-style-position: inside;
+  font-weight: 300;
+  margin-bottom: .8rem;
+}
+
+li {
+  line-height: 1.4;
+}
+
+h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+}
+
+h2 {
+  margin-top: 2rem;
+  margin-bottom: .8rem;
+  color: #e2344a;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+hr {
+  border: none;
+  border-bottom: 3px solid #e2344a;
+  width: 50px;
+  margin: 0 0 2rem;
+}
+
+h1 {
+  font-size: 6vw;
+}
+
+h4 {
+  margin: .8rem;
+  font-weight: 600;
+  font-family: 'Playfair Display', serif;
+}
+
+.banner {
+  min-height: 100vh;
+  background-image: url('../images/palm-background.png');
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.banner h3 {
+  font-weight: 300;
+}
+
+.footer {
+  background-color: #e2344a;
+  color: white;
+  text-align: center;
+}
+
+.footer h2 {
+  color: white;
+}
+
+.footer a {
+  color: white;
+  font-weight: 600;
+}
+
+.footer hr {
+  border-bottom: 3px solid white;
+  margin: auto;
+  margin-bottom: 1rem;
+}
